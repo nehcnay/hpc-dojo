@@ -11,13 +11,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# 编译生成的可执行文件
-cuda_learning/vector_add/vector_add
-cuda_learning/matrix_multi/matrixMul
-cuda_learning/matrix_multi/matrixMulShared
-cuda_learning/Dim_count/Dim_count
-cuda_learning/vector_dot_product/vector_dot_product
-
 # 临时/隐藏文件
 .fuse_hidden*
 *~
