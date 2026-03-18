@@ -1,0 +1,7 @@
+setup.py
+tensor_square.cpp
+tensor_square_kernel.cu
+tensor_square.egg-info/PKG-INFO
+tensor_square.egg-info/SOURCES.txt
+tensor_square.egg-info/dependency_links.txt
+tensor_square.egg-info/top_level.txt
