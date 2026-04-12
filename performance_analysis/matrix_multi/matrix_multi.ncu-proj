@@ -1,6 +1,14 @@
 {
     "extension": "ncu-proj",
     "files": [
+        {
+            "is_open": true,
+            "path": "../../cuda_learning/matrix_multi/matrixMul_report.ncu-rep"
+        },
+        {
+            "is_open": true,
+            "path": "../../cuda_learning/matrix_multi/matrixMulShared_report.ncu-rep"
+        }
     ],
     "launcher": {
         "activity/interactiveprofile/cachecontrol": "Flush All",
@@ -35,7 +43,7 @@
         "activity/profile/launchskipcount": "0",
         "activity/profile/metrics": "",
         "activity/profile/nvtxincludeexcludeoptions": "",
-        "activity/profile/outputfile": "",
+        "activity/profile/outputfile": "/mnt/aaa/workspace/projects/cuda_learning/matrix_multi/matrixMulShared_report",
         "activity/profile/rangereplayoptions": "",
         "activity/profile/replaymode": "Kernel",
         "activity/profile/samplingBufferSize": "33554432",
@@ -54,7 +62,11 @@
         "platform/linux/arguments": "",
         "platform/linux/autoconnect": true,
         "platform/linux/environment": "",
-        "platform/linux/executable": "",
+        "platform/linux/executable": "/mnt/aaa/workspace/projects/cuda_learning/matrix_multi/matrixMulShared",
+        "platform/linux/executable/history": [
+            "/mnt/aaa/workspace/projects/cuda_learning/matrix_multi/matrixMulShared",
+            "/mnt/aaa/workspace/projects/cuda_learning/matrix_multi/matrixMul"
+        ],
         "platform/linux/workingdir": "",
         "platform/ppc/arguments": "",
         "platform/ppc/autoconnect": true,
