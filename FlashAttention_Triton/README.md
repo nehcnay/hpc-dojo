@@ -1,0 +1,1 @@
+通过Triton实现FlashAttention的简化版（Softmax+MatMul），减少显存访问（HBM）提高性能
