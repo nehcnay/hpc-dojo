@@ -12,3 +12,11 @@ Attention(Q, K, V) = softmax(QK^T/√d) · V
 
 ## FlashAttention
 分块加载到SRAM，在SRAM片上完成所有计算，只写最终结果O回HBM
+
+
+
+### 实现
+1. 实现softmax
+2. 实现矩阵乘法QK^T
+3. 融合softmax+matmul
+4. 结果乘V输出最后结果
